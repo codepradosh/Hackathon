@@ -5,7 +5,7 @@ from pydantic import BaseModel, Field
 import uvicorn
 
 # Environment Variables
-DEEPSEEK_API_KEY = "sk-f163d37f95804bfcb655b5b11cc8ee5e"
+DEEPSEEK_API_KEY = "xxxxxxxxxxxxxx"
 if not DEEPSEEK_API_KEY:
     raise RuntimeError("Set DEEPSEEK_API_KEY env var")
 
